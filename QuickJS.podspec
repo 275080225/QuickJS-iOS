@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
       ss.vendored_libraries  = 'QuickJS_iOS/lib/*.a'
 
       # required to load all symbols in the library
-      ss.user_target_xcconfig = { 'OTHER_LDFLAGS' => '-force_load ${PODS_ROOT}/../../QuickJS_iOS/QuickJS_iOS/lib/libquickjs.a' }
+      ss.user_target_xcconfig = { 'OTHER_LDFLAGS' => '-force_load ${PODS_ROOT}/QuickJS/QuickJS_iOS/lib/libquickjs.a' }
     end
   end
