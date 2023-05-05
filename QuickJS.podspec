@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.tvos.deployment_target = '10.0'
 
     # s.platform     = :ios, "10.0" 
-    s.source       = { :git => "https://github.com/siuying/QuickJS-iOS.git", :tag => s.version }
+    s.source       = { :git => "https://github.com/275080225/QuickJS-iOS.git", :tag => s.version }
     s.default_subspec = 'precompiled'
 
     s.prepare_command = 'sh build.sh'
